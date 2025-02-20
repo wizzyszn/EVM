@@ -4,7 +4,7 @@ import { getToken } from "@/lib/helpers";
 
 //const baseUrl = "https://api.aspacenetwork.com/api/v1";
 const baseUrl = "https://evm-backend-t47a.onrender.com";
-const routeBaseUrl = {
+const routeBaseUrl = {  
     auth: `${baseUrl}/auth`,
     users: `${baseUrl}/users`,
     properties :  `${baseUrl}/properties`,
