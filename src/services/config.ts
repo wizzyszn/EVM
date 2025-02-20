@@ -3,7 +3,7 @@
 import { getToken } from "@/lib/helpers";
 
 //const baseUrl = "https://api.aspacenetwork.com/api/v1";
-const baseUrl = "https://evm-backend-t47a.onrender.com";
+const baseUrl = "https://evm-backend-t47a.onrender.com/api/v1";
 const routeBaseUrl = {  
     auth: `${baseUrl}/auth`,
     users: `${baseUrl}/users`,
