@@ -126,7 +126,7 @@ const Payments: React.FC = () => {
                 <TableRow key={payment.id}>
                   <TableCell>{payment.tenantName}</TableCell>
                   <TableCell>{payment.propertyName}</TableCell>
-                  <TableCell>${payment.amount.toFixed(2)}</TableCell>
+                  <TableCell>#{payment.amount.toFixed(2)}</TableCell>
                   <TableCell>{payment.date}</TableCell>
                   <TableCell>
                     <Badge
@@ -149,7 +149,7 @@ const Payments: React.FC = () => {
             <p className="text-sm text-muted-foreground">
               Showing {filteredPayments.length} of {dummyPayments.length} payments
             </p>
-            <p className="font-semibold">Total: ${totalAmount.toFixed(2)}</p>
+            <p className="font-semibold">Total: #{totalAmount.toFixed(2)}</p>
           </div>
         </CardContent>
       </Card>

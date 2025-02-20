@@ -151,7 +151,7 @@ const Leases: React.FC = () => {
                   <TableCell>{lease.propertyName}</TableCell>
                   <TableCell>{lease.startDate}</TableCell>
                   <TableCell>{lease.endDate}</TableCell>
-                  <TableCell>${lease.monthlyRent}</TableCell>
+                  <TableCell>#{lease.monthlyRent}</TableCell>
                   <TableCell>
                     <Badge
                       variant={
